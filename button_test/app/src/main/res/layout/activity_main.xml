@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="숫자1" />
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="숫자2" />
+
+    <Button android:id="@+id/btnAdd1"
+            android:visibility="visible"
+            android:background="@color/colored"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="더하기"
+            tools:ignore="MissingConstraints">
+    </Button>
+    <Button android:id="@+id/btnAdd2"
+        android:visibility="visible"
+        android:background="@color/colored"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="빼기"
+        tools:ignore="MissingConstraints">
+    </Button>
+    <Button android:id="@+id/btnAdd3"
+        android:visibility="visible"
+        android:background="@color/colored"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="곱하기"
+        tools:ignore="MissingConstraints">
+    </Button>
+    <Button android:id="@+id/btnAdd4"
+        android:visibility="visible"
+        android:background="@color/colored"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나누기"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+    <TextView
+        android:id="@+id/TextResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:text="result: "
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안드로이드폰"
+        />
+
+<!--    <Button android:id="@+id/nate_btn"-->
+<!--        android:visibility="visible"-->
+<!--        android:text="@string/nate_home"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    </Button>-->
+<!--    <Button android:id="@+id/call_btn"-->
+<!--        android:enabled="true"-->
+<!--        android:text="@string/calling"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    </Button>-->
+<!--    <Button android:id="@+id/gallay_btn"-->
+<!--        android:text="@string/gallay"-->
+<!--        android:layout_marginTop="96dp"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    </Button>-->
+<!--    <Button android:id="@+id/exit_btn"-->
+<!--        android:text="@string/exit"-->
+<!--        android:layout_marginTop="142dp"-->
+<!--        android:background="@color/colored"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    </Button>-->
+
+</LinearLayout>

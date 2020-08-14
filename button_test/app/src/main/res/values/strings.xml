@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">button_test</string>
+    <string name="nate_home">네이트 홈페이지 열기</string>
+    <string name="calling">911 응급전화 걸기</string>
+    <string name="gallay">갤러리 열기</string>
+    <string name="exit">끝내기</string>
+</resources>
